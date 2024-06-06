@@ -1,5 +1,6 @@
 import { sleep } from "../lib/sleep"
 
+export const maxDuration = 60; // This function can run for a maximum of 60 seconds
 export const dynamic = 'force-dynamic' // defaults to auto
 
 export async function GET(request: Request) {
